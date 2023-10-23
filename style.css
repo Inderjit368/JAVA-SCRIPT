@@ -1,0 +1,117 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.links a
+{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+.links a:hover
+{
+	color: gold;
+}
+.links a.active
+{
+	color: gold;
+}
+.logo a
+{
+	float: left;
+}
+.logo
+{
+	padding: 0 0 0 20px;
+}
+.links ul
+{
+	list-style-type: none;
+	text-align: right;
+	padding: 40px 70px 40px 0;
+}
+.links li
+{
+	display: inline-block;
+	font-size: 18px;
+	padding: 0 20px;
+}
+.headerImg
+{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.centered
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+}
+.body
+{
+	 color: white;
+}
+#test
+{
+	width: 50%;
+	margin: auto;
+}
+.title
+{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+.author
+{
+	text-align: center;
+	margin: 0;
+	font-family: Calibri;
+}
+.source
+{
+	text-align: center;
+	margin: 0;
+	font-family: Calibri;
+}
+.description
+{
+	font-family: calibri;
+}
+#test a
+{
+	text-decoration: none;
+	color: gold;
+	text-align: center;
+}
+#test a:hover
+{
+	color: white;
+}
+hr
+{
+	width: 50%;
+}
+.container
+{
+	margin-top: 100px;
+	color: white;
+	text-align: center;
+	font-family: calibri;
+	font-size: 18px;
+}
+input
+{
+	font-size: 18px;
+}
+input[type="submit"]
+{
+	font-family: calibri;
+	cursor: pointer;
+}
